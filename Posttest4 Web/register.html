@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="php.css">
+</head>
+<body>
+
+    <!-- html form -->
+    <section class="form">
+    
+        <form action="Register.php; index.html" method="post">
+            <h2>Make a account</h2>
+
+            <!-- email -->
+            <input type="email" name="email" required maxlength="50" 
+            placeholder="Email" class="box" >
+
+            <!-- nama lengkap -->
+            <input type="text" name="nama" required maxlength="50" 
+            placeholder="Nama Lengkap" class="box">
+
+            <!-- username -->
+            <input type="text" name="username" required maxlength="50" 
+            placeholder="Username" class="box">
+
+            <!-- no hp -->
+            <input type="number" name="nohp" required maxlength="50" 
+            placeholder="Nomor Handphone" class="box">
+
+            <!-- alamat rumah -->
+            <input type="text" name="alamat" required maxlength="50" 
+            placeholder="Alamat" class="box">
+
+            <!-- password -->
+            <input type="password" name="password" required maxlength="50" f
+            placeholder="Password" class="box">
+
+            <p class="link">Already have an account? <a href="index.html">Login now</a></p>
+            <input type="submit" value="Register" class="btn" href="index.html">
+        </form>
+        <!-- <form action="index.html" method="post">
+            <input type="submit" value="Register"/>
+        </form> -->
+    </section>
+</body>
+</html>

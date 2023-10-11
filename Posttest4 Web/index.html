@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="php.css">
+  
+</head>
+<body>
+<section class="form">
+        <form action="Login.php" method="post">
+            <h2>Welcome back to bec<span>diys</span></h2>
+
+            <!-- username -->
+            <input type="text" name="username" required maxlength="50" 
+            placeholder="Username" class="box">
+            
+            <!-- password -->
+            <input type="password" name="password" required maxlength="50" 
+            placeholder="Password" class="box">   
+
+            <p class="link">Don't have an account? <a href="Register.php">Register now</a></p>
+        </form>
+        <form action="home.html" method="post">
+            <input type="submit" value="Login"/>
+        </form>
+    </section>
+</body>
+</html>

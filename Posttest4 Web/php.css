@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Poppins&display=swap');
+
+.form{
+    background: white;
+    box-shadow: 20px 20px 40px grey; 
+    padding: 45px;
+    border: red; 
+    border-radius: 40px;
+    max-width: 800px;
+    margin: 0 auto; 
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: 'Poppins', sans-serif;
+}   
+
+.form h2{
+    padding-bottom: 16px;
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.form h2 span{
+    color: #FF9EAA;
+}
+
+.form p{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.form p span{
+    color: red;
+}
+
+.form .box{
+    width: 760px;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 20px;
+    background-color: rgb(253, 234, 234);
+    margin: 25px 0;
+    font-family: 'font awesome free 5';
+}
+
+.form .image{
+    height: 20rem;
+    width: 100%;
+    object-fit: contain;
+    margin-top: .5rem;
+ }
+ 
+ .form .link{
+    padding: 16px 0;
+    text-align: center;
+    font-size: 20px;
+ }
+ 
+ .form .link a{
+    color: rgb(103, 156, 89);
+    text-decoration: none;
+ }
+ 
+ .form .link a:hover{
+    text-decoration: underline;
+ }
+
+.form .btn{
+    background-color: rgb(253, 234, 234);
+    padding: 15px;
+    width: 790px;
+    font-size:25px;
+    border-radius: 20px;
+}
+

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Poppins&display=swap');
+
+body{
+    background-image: url("../image/bg.png");
+}
+
+.form{
+    background: white;
+    box-shadow: 5px 10px 30px grey; 
+    padding: 45px;
+    border-radius: 40px;
+    max-width: 400px;
+    margin: 150px auto; 
+    margin-top: 200px;
+    font-family: 'Poppins', sans-serif;
+}   
+
+.form h2{
+    margin: -30px;
+    padding-bottom: 40px;
+    font-size: 30px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.form h2 span{
+    color: #FF9EAA;
+}
+
+.form p{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.form .box{
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+    width: 365px;
+    border-radius: 5px;
+}
+
+.form .image{
+    height: 20rem;
+    width: 100%;
+    object-fit: contain;
+    margin-top: .5rem;
+ }
+ 
+ .form .link{
+    padding: 0px;
+    text-align: center;
+    font-size: 16px;
+ }
+ 
+ .form .link a{
+    color: rgb(50, 107, 34);
+    text-decoration: none;
+ }
+ 
+ .form .link a:hover{
+    text-decoration: underline;
+ }
+
+#btn {
+    margin: 10px;
+    margin-bottom: -10px;
+    font-size: 18px;
+    width: 386px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: rgb(253, 234, 234);
+}
+
+#btn:hover {
+    background-color: #FF9EAA;
+}
+  

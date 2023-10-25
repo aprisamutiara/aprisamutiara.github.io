@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Poppins&display=swap');
+
+*{
+    /* margin: 0;
+    padding: 0;  */
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header{
+    position: absolute;
+    background: white;
+    top: 0; left: 0;
+    padding: 0 100px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #FFD0D0;
+}
+
+header .logo{
+    color: white;
+    height: 70px;
+    line-height: 70px;
+    font-size: 26px;
+    float: left;
+    font-weight: bold;
+    font-family: 'Croissant One', cursive;
+}
+
+header .logo span{
+    color: #FF9EAA;
+    font-family: 'Croissant One', cursive;
+} */
+
+/* header nav{
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav a{
+    color: white;
+    height: 70px;
+    line-height: 70px;
+    padding: 0 15px;
+    text-decoration: none;
+    display: block;
+}
+
+header nav a:hover{
+    color: #FF9EAA;
+} */
+
+/* responsive */
+/* @media (max-width: 650px){
+    header{
+        padding: 0 15px;
+    }
+} */
+
+.aboutme{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.aboutme biodata{
+    text-align: end;
+}
+
+profil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profil img{
+    width: 400px;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.profil h1{
+    background-color: #FF9EAA;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.profil p{
+    align-items: center;
+    font-size: 30px;
+    text-align: justify;
+}
+
+footer{
+    margin: 50px 0 20px 0;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #FFD0D0;
+}
+
+footer .information a{
+    color: rgb(180, 16, 117);
+    text-decoration: none;
+}
+
+h3{
+    font-size: 18px;
+}

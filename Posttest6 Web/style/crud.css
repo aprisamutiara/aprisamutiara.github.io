@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Poppins&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* create */
+.message{
+    display: block;
+    background-color: rgb(253, 234, 234);
+    padding: 16px 16px;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container{  
+    margin-top: 180px;
+    margin-bottom: 50px;
+    object-fit: cover;
+    height: fit-content;
+
+}
+
+.product-container{
+    background: white;
+    box-shadow: 5px 10px 30px grey; 
+    padding: 35px;
+    border-radius: 40px;
+    max-width: 400px;
+    margin: 10px auto; 
+}
+
+.product-container h3{
+    font-size: 24px;
+    text-align: center;
+}
+
+.product-container .box{
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+    width: 365px;
+    border-radius: 5px;
+}
+
+.btn {
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+    width: 386px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: rgb(253, 234, 234);
+    text-decoration: none;
+    color: black;
+}
+
+.btn:hover {
+    background-color: #FF9EAA;
+}
+  
+
+/* read */
+.products-display{
+    margin: 2rem 0;  
+    overflow-y: scroll;
+}
+
+.products-display .products-table{
+    width: 100%;  
+    text-align: center;
+}
+
+.products-display .products-table thead{
+    background-color: pink;
+}
+
+.products-display .products-table td{
+    padding: 1rem;
+    font-size: 20px;
+    width: 250px;
+}
+
+.products-display .create-btn{
+    text-decoration: none;
+    background-color: pink;
+    border: none;
+    border-radius: 5px;
+    margin: 8px;
+    padding: 10px 25px;
+    font-size: 18px;
+    float: inline-end;
+}
+
+.products-display .create-btn:hover{
+    background-color: rgb(153, 148, 148);
+ }
+
+.products-display .products-table .edit-btn{
+    background-color: rgb(171, 231, 81);
+    border: none;
+    border-radius: 5px;
+    margin: 8px;
+    width: 250px;
+}
+
+.products-display .products-table .edit-btn:hover{
+    background-color: rgb(153, 148, 148);
+ }
+ 
+.products-display .products-table .edit-btn a{
+    display: flex;
+    padding-left: 70px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.products-display .products-table .edit-btn img{
+    width: 30px;
+    padding: 8px
+}
+
+.products-display .products-table .delete-btn{
+    background-color: pink;
+    border: none;
+    border-radius: 5px;
+    padding:10px;
+    align-self: center;
+    width: 250px;
+}
+
+.products-display .products-table .delete-btn:hover{
+   background-color: rgb(153, 148, 148);
+}
+
+.products-display .products-table .delete-btn a{
+    display: flex;
+    padding-left: 70px;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.products-display .products-table .delete-btn img{
+    padding-right: 9px;
+}
+
+/* update */
+.product-container update{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+form img{
+    margin-top: -15px;
+    margin-left: 150px;
+}
